@@ -36,35 +36,42 @@ c. Realizar a divisão do dataset entre uma base de treinamento e de testes;
 d. Realizar o treinamento do algoritmo com um algoritmo de aprendizagem supervisionada;
 e. Mostrar as predições para uma base de testes.
  
-1
+
 3. Modifique o notebook para que siga os seguintes passos (note somente que alguns passos foram 
 invertidos):
+
 a. Carregar o dataset (o mesmo da Parte I);
+
 b. Realizar a divisão do dataset entre uma base de treinamento e de testes;
+
 c. Realizar o passo de preparação dos dados;
+
 d. Realizar o treinamento do algoritmo com um algoritmo de aprendizagem supervisionada (o 
 mesmo da Parte I);
+
 e. Mostrar as predições para uma base de testes.
+
 4. Após realizar esta modificação do passo anterior, modifique novamente o notebook para que fique 
 da seguinte forma:
+
 a. Carregar o dataset (o mesmo da Parte I);
+
 b. Realizar a divisão do dataset entre uma base de treinamento e de testes;
+
 c. Crie um pipeline o qual inclui os seguintes passos:
+
 i. Preparação dos dados;
+
 ii. Treinamento do algoritmo com um algoritmo de aprendizagem supervisionada (o 
 mesmo da Parte I);
+
 d. Mostre as predições do pipeline para uma base de testes.
+
 e. Escolha duas métricas para o tipo de problema que esteja trabalhando (ex.: RMSE, MAE, 
 MAPE, MSE para regressão; matriz de confusão, ROC e AUC, precision e recall, balanced 
 accuracy e F1 score para classificação) e mostre as métricas a partir da base de testes que 
 você selecionou. Problemas de séries temporais podem utilizar as mesmas métricas de 
 regressão.
+
 f. Escreva as conclusões da equipe quanto às métricas: os valores são bons ou ruins? Por quê? 
 De que forma poderiam melhorar?
-5. Não esqueça de deixar o seu notebook apresentável – isto é, divida o seu código em células como 
-mostramos anteriormente de uma forma que seja compreensível os diferentes blocos do seu código. 
-Utilize também células do tipo markdown (isto é, que permitam códigos em HTML) para explicar 
-para pessoas que não entendam de Python o que vocês fizeram durante o trabalho.
-6. Entregue três arquivos: o arquivo original do notebook da Parte II (com extensão .ipynb); o mesmo 
-notebook em HTML (no Jupyter clique em “File > Export Notebook As... > Export Notebook as HTML” 
-ou “File > Download as > HTML”); e o notebook da Parte I em HTML (para fins de comparação)
